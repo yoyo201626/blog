@@ -1,0 +1,31 @@
+.setion {
+    margin-top: 1.6em;
+    margin-bottom: .6em;
+}
+.title {
+    margin-right: 1rem;
+    font-weight: 600;
+    font-size: 1.25em;
+
+    max-width: 20rem;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.summary {
+    font-size: .9rem;
+    max-height: 5rem;
+    color: #999aaa;
+    overflow: hidden;
+    margin: 0.3rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+.time {
+    --text-opacity: 1;
+    padding-right: 1rem;
+    color: #718096;
+    color: rgba(113,128,150,var(--text-opacity));
+}
