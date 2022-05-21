@@ -1,0 +1,10 @@
+*.exe
+*.exe~
+static/dist/*
+docs/*
+logs/*
+gens/*
+blog
+blog.*
+publish*
+.vscode

@@ -1,0 +1,34 @@
+{
+	"name": "zxysilent-blog",
+	"version": "0.2.0",
+	"description": "A template about Vue and iView By zxysilent. https://github.com/zxysilent",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build"
+	},
+	"dependencies": {
+		"axios": "^0.21.1",
+		"cropperjs": "^1.5.1",
+		"js-md5": "^0.7.3",
+		"mavon-editor": "^2.9.1",
+		"tinymce": "^5.8.0",
+		"view-design": "^4.5.0",
+		"vue": "^2.6.12",
+		"vue-router": "3.4.1",
+		"vuex": "^3.6.2"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "~4.2.0",
+		"@vue/cli-plugin-router": "~4.2.0",
+		"@vue/cli-plugin-vuex": "~4.2.0",
+		"@vue/cli-service": "~4.2.0",
+		"less": "^4.1.1",
+		"less-loader": "^7.0.0",
+		"vue-template-compiler": "^2.6.12"
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions"
+	]
+}

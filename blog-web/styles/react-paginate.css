@@ -1,0 +1,15 @@
+
+.react-paginate >.disabled >a{
+    cursor: default;
+    color: gray;
+}
+.react-paginate >.selected >a{
+    cursor: default;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: black;
+}
+.react-paginate >li {
+    display: inline-block;
+    margin: .5rem;
+}
